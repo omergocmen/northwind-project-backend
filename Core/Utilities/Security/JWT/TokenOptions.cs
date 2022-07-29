@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.Utilities.Security.JWT
 {
+    //Conf kısmında yer alan tokenoptions yapısındaki özelliklerin karşılamak için olştrln varlık
     public class TokenOptions
     {
         public string Audience { get; set; }

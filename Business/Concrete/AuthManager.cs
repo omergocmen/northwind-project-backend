@@ -7,7 +7,7 @@ using Core.Utilities.Security.JWT;
 using Entities.DTOs;
 
 namespace Business.Concrete
-{
+{   //Bu Servis Register olma ya da Login olma durumlarını kontrol ediyor
     public class AuthManager : IAuthService
     {
         private IUserService _userService;

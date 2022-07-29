@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Core.Aspects.Autofac.Validation
 {
+    //bu sınıf gelen isteklerin validation kurallarına uygunlugunu test eden aspect sınıfıdr
     public class ValidationAspect : MethodInterception
     {
         private Type _validatorType;

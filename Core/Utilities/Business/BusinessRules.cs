@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Utilities.Business
 {
+    //bu sınıf bir iş motorudur gereken tüm kontrolleri ardı ardına gerçekleştirmeyi sağlar
     public class BusinessRules
     {
         public static IResult Run(params IResult[] logics)
