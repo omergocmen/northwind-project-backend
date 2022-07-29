@@ -14,6 +14,7 @@ using Business.Constants;
 namespace Business.BusinessAspects.Autofac
 {
     //JWT
+    //Bu sınıf kullanıcının yetkilendirme işlemlerini sınayan aspect sınıfıdır
     public class SecuredOperation : MethodInterception
     {
         private string[] _roles;
